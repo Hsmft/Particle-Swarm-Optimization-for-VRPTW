@@ -43,7 +43,7 @@ The solver implements the following workflow:
 You can compile the source code using a standard C++ compiler like g++.
 
 ```bash
-g++ -std=c++11 -o solver hw6.cpp
+g++ -std=c++11 -o solver PSO.cpp
 ```
 
 ### Execution
