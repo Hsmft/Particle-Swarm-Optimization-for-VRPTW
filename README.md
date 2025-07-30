@@ -51,15 +51,15 @@ The program is run from the command line with the following arguments:
 ```bash
 ./solver [instance-file-path] [max-execution-time] [max-evaluations]
 ```
-* `instance-file-path`: The path to the problem instance file (e.g., `instances/C101.txt`).
+* `instance-file-path`: The path to the problem instance file (e.g., `instances/800-rh-61.txt`).
 * `max-execution-time`: The maximum run time in seconds. Use `0` for no time limit.
 * `max-evaluations`: The maximum number of objective function evaluations. Use `0` for no limit.
 
 **Example:**
 ```bash
-./solver instances/C101.txt 60 0
+./solver instances/800-rh-61.txt 60 0
 ```
-This command runs the solver on the `C101.txt` instance for a maximum of 60 seconds.
+This command runs the solver on the `800-rh-61.txt` instance for a maximum of 60 seconds.
 
 ---
 
